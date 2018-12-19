@@ -1,13 +1,13 @@
 # Awesome question answering, machine reading, and dialog datasets
 
 
-## SQuAD 
+##SQuAD 
 Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
 
 This dataset is created by [Pranav Rajpurkar](Pranav Rajpurkar), and can be download from the author's [github page](https://rajpurkar.github.io/SQuAD-explorer/).
 
 
-## NarrativeQA: The NarrativeQA Reading Comprehension Challenge
+##NarrativeQA: The NarrativeQA Reading Comprehension Challenge
 [paper](https://arxiv.org/pdf/1712.07040.pdf)
 
 Reading comprehension (RC)—in contrast to
@@ -30,7 +30,7 @@ We provide an analysis of the dataset and the
 challenges it presents.
 
 
-## RACE: Large-scale ReAding Comprehension Dataset From Examination
+##RACE: Large-scale ReAding Comprehension Dataset From Examination
 [paper](http://aclweb.org/anthology/D17-1082)
 
 We present RACE, a new dataset for
@@ -52,7 +52,7 @@ can serve as a valuable resource for research and evaluation in machine comprehe
 available at [Github](https://github.com/qizhex/RACE_AR_baselines)
 
 
-## TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
+##TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
 [paper](http://www.aclweb.org/anthology/P17-1147)
 
 We present TriviaQA, a challenging
@@ -73,7 +73,7 @@ and 40% vs. 80%), suggesting that TriviaQA is a challenging testbed that is wort
 significant future study.1
 
 
-## WikiHop: Constructing Datasets for Multi-hop Reading Comprehension Across Documents
+##WikiHop: Constructing Datasets for Multi-hop Reading Comprehension Across Documents
 [paper](https://arxiv.org/pdf/1710.06481.pdf)
 
 Most Reading Comprehension methods limit
@@ -99,7 +99,7 @@ test set, compared to human performance at
 85.0%, leaving ample room for improvement.
 
 
-## SearchQA
+##SearchQA
 [paper](https://arxiv.org/pdf/1704.05179.pdf)
 
 We publicly release a new large-scale
@@ -126,7 +126,7 @@ the proposed dataset could well serve as
 a benchmark for question-answering.
 
 
-## WIKIREADING:  A Novel Large-scale Language Understanding Task over Wikipedia
+##WIKIREADING:  A Novel Large-scale Language Understanding Task over Wikipedia
 [paper](http://www.aclweb.org/anthology/P16-1145)
 
 We present WIKIREADING, a large-scale
@@ -142,7 +142,7 @@ or character sequences, perform best. Our
 best-performing model, a word-level sequence to sequence model with a mechanism to copy out-of-vocabulary words, obtains an accuracy of 71.8%.
 
 
-## NewsQA:
+##NewsQA:
 [paper](https://arxiv.org/pdf/1611.09830.pdf)
 
 We present NewsQA, a challenging machine comprehension dataset of over 100,000
@@ -156,7 +156,7 @@ can be made on NewsQA through future research. The dataset is freely available a
 https://datasets.maluuba.com/NewsQA.
 
 
-## MS MARCO
+##MS MARCO
 [paper](https://arxiv.org/pdf/1611.09268.pdf)
 
 We introduce a large scale MAchine Reading COmprehension dataset, which we
@@ -179,7 +179,7 @@ dataset makes it attractive for benchmarking machine reading comprehension and
 question-answering models.
 
 
-## The (6) dialog bAbI tasks
+##The (6) dialog bAbI tasks
 This dataset contains six tasks and each task is used to test a unique aspect of dialog. Tasks are designed to complement the set of 20 bAbI tasks for story understanding of the previous section.
 
 For each task, there are 1000 dialogs for training, 1000 for development and 1000 for testing. For tasks 1-5, we also include a second test set (with suffix -OOV.txt) that contains dialogs including entities not present in training and development sets.
@@ -188,7 +188,7 @@ The detail description can be find in the paper:
 Antoine Bordes, Y-Lan Boureau, Jason Weston, [Learning End-to-End Goal-Oriented Dialog](https://arxiv.org/pdf/1605.07683.pdf) and [Facebook](https://research.fb.com/publications/learning-end-to-end-goal-oriented-dialog/).
 
 
-## CNN/Daily Mail: 
+##CNN/Daily Mail: 
 [paper](https://arxiv.org/pdf/1506.03340.pdf)
 
 Teaching machines to read natural language documents remains an elusive challenge. Machine reading systems can be tested on their ability to answer questions
@@ -200,7 +200,7 @@ class of attention based deep neural networks that learn to read real documents 
 answer complex questions with minimal prior knowledge of language structure.
 
 
-## The Movie Dialog dataset
+##The Movie Dialog dataset
 Movie Dialog dataset (MDD) is designed to measure how well models can perform at goal and non-goal orientated dialog centered around the topic of movies (question answering, recommendation and discussion). Details and baseline results on this dataset can be found in the paper:
 
 Jesse Dodge, Andreea Gane, Xiang Zhang, Antoine Bordes, Sumit Chopra, Alexander Miller, Arthur Slam, Jason Weston. [Evaluating Prerequisite Qualities for Learning End-to-End Dialog Systems](http://arxiv.org/abs/1511.06931) and the [page](https://research.fb.com/publications/evaluating-prerequisite-qualities-for-learning-end-to-end-dialog-systems/).
@@ -208,7 +208,7 @@ Jesse Dodge, Andreea Gane, Xiang Zhang, Antoine Bordes, Sumit Chopra, Alexander 
 The file format is again the same as in the bAbI tasks. The IDs for a given dialog start at 1 and increase. Each ID consists of one turn for each speaker (an “exchange”), which are tab separated. When the IDs in a file reset back to 1 you can consider the following sentences as a new conversation.
 
 
-## CBT
+##CBT
 [paper](https://arxiv.org/pdf/1511.02301.pdf)
 
 We introduce a new test of how well language models capture meaning in children’s books. Unlike standard language modelling benchmarks, it distinguishes
@@ -223,12 +223,12 @@ through self-supervision. We then assess the generality of this principle by app
 paraphrased summaries of news articles, and achieve state-of-the-art performance.
 
 
-## The (20) QA bAbI tasks
+##The (20) QA bAbI tasks
 This dataset is constructed by [Facebook](https://research.fb.com/downloads/babi/). The tasks are described in detail in the paper:
 Jason Weston, et. al,. [Towards AI Complete Question Answering: A Set of Prerequisite Toy Tasks](http://arxiv.org/abs/1502.05698).
 
 
-## MCTest
+##MCTest
 [paper](http://aclweb.org/anthology/D/D13/D13-1020.pdf)
 
 We present MCTest, a freely available set of
@@ -258,7 +258,7 @@ provide a clear metric for advancement on the
 machine comprehension of text.
 
 
-# MRQA 2018: Machine Reading for Question Answering, Workshop at ACL 2018
+#MRQA 2018: Machine Reading for Question Answering, Workshop at ACL 2018
 [page](https://mrqa2018.github.io/)
 
 [accepted papers](https://aclanthology.info/volumes/proceedings-of-the-workshop-on-machine-reading-for-question-answering)
