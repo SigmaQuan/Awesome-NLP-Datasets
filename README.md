@@ -256,3 +256,19 @@ open-domain, yet carefully restricted, we hope
 MCTest will serve to encourage research and
 provide a clear metric for advancement on the
 machine comprehension of text.
+
+
+# MRQA 2018: Machine Reading for Question Answering, Workshop at ACL 2018
+[page](https://mrqa2018.github.io/)
+
+This workshop will gather researchers to address and discuss important research topics surrounding MRQA, including:
+
+Accuracy: How can we make MRQA systems more accurate?
+Interpretability: How can systems provide rationales for their predictions?
+Speed and Scalability: How can systems scale to consider larger contexts, from long documents to the whole web?
+Robustness: How can systems generalize to other datasets and settings beyond the training distribution?
+Dataset Creation: What are effective methods for building new MRQA datasets?
+Dataset Analysis: What challenges do current MRQA datasets pose?
+Error Analysis: What types of questions or documents are particularly challenging for existing systems?
+
+
