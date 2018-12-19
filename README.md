@@ -260,6 +260,7 @@ machine comprehension of text.
 
 # MRQA 2018: Machine Reading for Question Answering, Workshop at ACL 2018
 [page](https://mrqa2018.github.io/)
+[accepted papers](https://aclanthology.info/volumes/proceedings-of-the-workshop-on-machine-reading-for-question-answering)
 
 This workshop will gather researchers to address and discuss important research topics surrounding MRQA, including:
 
